@@ -57,6 +57,7 @@ public class MainApp {
             }
 
             // ------------------ Admin Menu ------------------ //
+            // admin id: vpt2036@gmail.com  pass: vpt2036
             else if ("Admin".equalsIgnoreCase(loggedInUser.getRole())) {
                 System.out.println("\n===== Admin Menu =====");
                 System.out.println("1. Add Library Item");
