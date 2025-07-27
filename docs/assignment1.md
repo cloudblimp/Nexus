@@ -74,6 +74,7 @@ Existing Project name: **Nexus: A Digital and Secure Library Management System**
 | Manage all user accounts                           | Book          |
 | Override fines and borrowing rules                 | User          |
 | View system-wide transaction history               | Fine          |
+
 **Class: Book**
 
 | Responsibilities                                      | Collaborators |
@@ -89,6 +90,7 @@ Existing Project name: **Nexus: A Digital and Secure Library Management System**
 | Process user requests (search, borrow, return) | Book          |
 | Orchestrate interactions between components    | Transaction   |
 | Enforce business logic and rules               | Fine          |
+
 **Class: Transaction**
 
 | Responsibilities                                     | Collaborators |
@@ -97,6 +99,7 @@ Existing Project name: **Nexus: A Digital and Secure Library Management System**
 | Track key dates (borrow date, due date, return date) | Book          |
 |                                                      | LibrarySystem |
 |                                                      | Fine          |
+
 **Class: Fine**
 
 | Responsibilities                      | Collaborators |
